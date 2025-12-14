@@ -1,6 +1,17 @@
 # flight_delay_predictions
 End To End ML PIpeline for Flight Delay Predictions - Data Pipeline and Transformer Models
 
+##Flight Delay
+
+75 million rows of DOT flight delay data and 132 million rows of weather data from NOAA were joined using Apache Spark and analyzed to evaluate flight delay predictions under significant class imbalance and temporal distribution drift. Flight delay predictions require modeling complex interactions, including flight schedule, airline, flight network effects, temporal dependencies and external issues including maintenance, staffing and security. Here, we use three model types, graph and temporal features to compare predictions addressing imbalance through downsampling and focal loss.
+
+## Write-Up
+
+- **Feature Tokenizer Transformer Model Performance in Predicting Flight Delays**  
+  Medium article detailing the modeling approach, class imbalance handling, and transformer results:  
+  https://medium.com/@aestew/feature-tokenizer-transformer-model-performance-in-predicting-flight-delays-96126989e133
+
+
 ## Pipeline, Features & Modeling Contributions
 
 ### Amy Steward — Pipeline Co-Lead, Features & Transformer Models
